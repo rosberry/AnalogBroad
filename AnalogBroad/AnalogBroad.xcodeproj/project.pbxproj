@@ -13,7 +13,6 @@
 		0166D44622FBFC0700EC7FF4 /* AnalogBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0166D43C22FBFC0700EC7FF4 /* AnalogBroad.framework */; };
 		0166D44B22FBFC0700EC7FF4 /* AnalogBroadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166D44A22FBFC0700EC7FF4 /* AnalogBroadTests.swift */; };
 		0194E229236ACEFC00334D9D /* AnyCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194E228236ACEFC00334D9D /* AnyCodable.framework */; };
-		0194E22A236ACEFC00334D9D /* AnyCodable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0194E228236ACEFC00334D9D /* AnyCodable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,20 +24,6 @@
 			remoteInfo = AnalogBroad;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0194E22B236ACEFD00334D9D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0194E22A236ACEFC00334D9D /* AnyCodable.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0116552022FC023F002010E5 /* AnalogBroad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogBroad.swift; sourceTree = "<group>"; };
@@ -144,7 +129,6 @@
 				0166D43822FBFC0700EC7FF4 /* Sources */,
 				0166D43922FBFC0700EC7FF4 /* Frameworks */,
 				0166D43A22FBFC0700EC7FF4 /* Resources */,
-				0194E22B236ACEFD00334D9D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -1,3 +1,4 @@
-github "ntunin/AnalogBroad" "4f61b6f3ffbf408c191b225aa78df04751dd2e9b"
+github "Flight-School/AnyCodable" "0.2.3"
 github "rosberry/Analog" "1.0.2"
-github "rosberry/ButterBroad" "6d934fe55ac91004683c753d2ef7eb6b84ed4071"
+github "rosberry/AnalogBroad" "5f64e2e40c1d4642b9a1d5dc0ec7e4fb1c6ea3cf"
+github "rosberry/ButterBroad" "d481c326d6fb37a1d5afb805864e2bc276ae1d1c"

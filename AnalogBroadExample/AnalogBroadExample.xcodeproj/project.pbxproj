@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		015A8A2A230E5156002600FF /* AnalogBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015A8A29230E5156002600FF /* AnalogBroad.framework */; };
 		0180892422FC282F005FA5F7 /* ButterBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0180892222FC282F005FA5F7 /* ButterBroad.framework */; };
 		0180892522FC282F005FA5F7 /* Analog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0180892322FC282F005FA5F7 /* Analog.framework */; };
+		0194E22D236AD49900334D9D /* AnyCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194E22C236AD49900334D9D /* AnyCodable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		015A8A29230E5156002600FF /* AnalogBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnalogBroad.framework; path = Carthage/Build/iOS/AnalogBroad.framework; sourceTree = "<group>"; };
 		0180892222FC282F005FA5F7 /* ButterBroad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ButterBroad.framework; path = ../Carthage/Build/iOS/ButterBroad.framework; sourceTree = "<group>"; };
 		0180892322FC282F005FA5F7 /* Analog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analog.framework; path = ../Carthage/Build/iOS/Analog.framework; sourceTree = "<group>"; };
+		0194E22C236AD49900334D9D /* AnyCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyCodable.framework; path = Carthage/Build/iOS/AnyCodable.framework; sourceTree = "<group>"; };
 		01BC359822FC104100FA02FF /* AnalogBroad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnalogBroad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 			files = (
 				015A8A2A230E5156002600FF /* AnalogBroad.framework in Frameworks */,
 				0180892422FC282F005FA5F7 /* ButterBroad.framework in Frameworks */,
+				0194E22D236AD49900334D9D /* AnyCodable.framework in Frameworks */,
 				0180892522FC282F005FA5F7 /* Analog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +119,7 @@
 		0116555222FC0787002010E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0194E22C236AD49900334D9D /* AnyCodable.framework */,
 				015A8A29230E5156002600FF /* AnalogBroad.framework */,
 				0180892322FC282F005FA5F7 /* Analog.framework */,
 				0180892222FC282F005FA5F7 /* ButterBroad.framework */,
@@ -229,19 +233,15 @@
 			files = (
 			);
 			inputFileListPaths = (
+				"$(SRCROOT)/Carthage/xcfilelists/AnalogBroadExample-inputPaths.xcfilelist",
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Analog.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ButterBroad.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AnalogBroad.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
+				"$(SRCROOT)/Carthage/xcfilelists/AnalogBroadExample-outputPaths.xcfilelist",
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Analog.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ButterBroad.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AnalogBroad.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
