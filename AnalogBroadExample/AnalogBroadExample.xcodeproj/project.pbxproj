@@ -140,6 +140,7 @@
 				0116552822FC041A002010E5 /* Frameworks */,
 				0116552922FC041A002010E5 /* Resources */,
 				0180892122FC2770005FA5F7 /* Carthage */,
+				0194E232236AD84F00334D9D /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -246,6 +247,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		0194E232236AD84F00334D9D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "../Scripts/swiftlint_script.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
