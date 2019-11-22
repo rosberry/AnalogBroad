@@ -9,7 +9,6 @@
 import ButterBroad
 import AnalogBroad
 
-
 extension Butter {
     static var analog: AnalogBroad = .init()
     static var common: Butter = .init(broads: Butter.analog)
