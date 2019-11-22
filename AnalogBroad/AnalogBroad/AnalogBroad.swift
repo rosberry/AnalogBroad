@@ -17,7 +17,10 @@ public enum SessionFilter {
 
 public final class AnalogBroad: Analytics {
 
-    private lazy var logger: Logger = .init()
+    private lazy var _logger: Logger = .init()
+    public var logger: Logger {
+        return _logger
+    }
 
     public init() {
     }
@@ -31,14 +34,5 @@ public final class AnalogBroad: Analytics {
             params[key] = string
         }
         logger.log(.init(title: event.name, parameters: params))
-    }
-
-    public func module(for filter: SessionFilter) -> UIViewController {
-        switch filter {
-        case .current:
-            return logger.currentEventsModule()
-        default:
-            return logger.sessionsModule()
-        }
     }
 }
