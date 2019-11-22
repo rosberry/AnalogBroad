@@ -3,7 +3,6 @@
 excluded:
   - Carthage/
   - Pods/
-  - AnalogBroadExample/Carthage/
 
 # Rules
 
