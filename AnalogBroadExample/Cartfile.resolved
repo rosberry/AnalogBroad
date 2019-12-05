@@ -1,4 +1,4 @@
 github "Flight-School/AnyCodable" "0.2.3"
 github "rosberry/Analog" "1.0.2"
-github "rosberry/AnalogBroad" "4c56dfd1faf77c030e4e60bc4e634d34a98e0ce7"
-github "rosberry/ButterBroad" "a854607c5e71e7e5e3a3677d45ab876e6e419102"
+github "rosberry/AnalogBroad" "be65c95b482ec8533b32a7da1e158e53d1fe1769"
+github "rosberry/ButterBroad" "d0e1545751b612da7d7306f973a4470c17b80522"
