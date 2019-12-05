@@ -17,10 +17,7 @@ public enum SessionFilter {
 
 public final class AnalogBroad: Analytics {
 
-    private lazy var _logger: Logger = .init()
-    public var logger: Logger {
-        return _logger
-    }
+    public private(set) var logger: Logger
 
     public init() {
     }

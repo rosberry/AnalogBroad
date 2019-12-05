@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w5p-Am-e6s">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w5p-Am-e6s">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,7 +49,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="c0L-8o-MmW"/>
                                                 </constraints>
-                                                <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -63,7 +60,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Log"/>
                                                 <connections>
-                                                    <action selector="log:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YnL-zQ-zYV"/>
+                                                    <action selector="logButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ddd-pd-Q1h"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -90,7 +87,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Show current session log"/>
                                                 <connections>
-                                                    <action selector="showCurrentSessionEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1j-7y-1wd"/>
+                                                    <action selector="showCurrentSessionEventsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r3n-Fg-lVQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXY-wv-sYn">
@@ -100,7 +97,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Show all session log"/>
                                                 <connections>
-                                                    <action selector="showAllSessionsEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypY-00-QzZ"/>
+                                                    <action selector="showAllSessionsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mRY-Jq-8sM"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -133,6 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-729" y="912"/>
         </scene>
     </scenes>
 </document>

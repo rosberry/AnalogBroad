@@ -18,19 +18,19 @@ final class ViewController: UIViewController {
         navigationItem.title = "Analog"
     }
 
-    @IBAction func log(_ sender: Any) {
+    @IBAction func logButtonPressed(_ sender: Any) {
         if let text = textField.text, text.isEmpty == false {
             Butter.common.log(.init(name: text))
             textField.text = ""
         }
     }
 
-    @IBAction func showCurrentSessionEvents(_ sender: Any) {
+    @IBAction func showCurrentSessionEventsPressed(_ sender: Any) {
         let controller = Butter.analog.logger.currentEventsModule()
         present(controller, animated: true)
     }
 
-    @IBAction func showAllSessionsEvents(_ sender: Any) {
+    @IBAction func showAllSessionsButtonPressed(_ sender: Any) {
         let controller = Butter.analog.logger.sessionsModule()
         present(controller, animated: true)
     }
