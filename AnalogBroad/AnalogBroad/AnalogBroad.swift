@@ -15,22 +15,28 @@ public enum SessionFilter {
     case all
 }
 
+public protocol AnalogLogger {
+    func log(_ event: Analog.Event)
+}
+
 public final class AnalogBroad: Analytics {
 
     public var activationHandler: (() -> Void)?
-    public private(set) var logger: Logger = .init()
+    public private(set) var logger: AnalogLogger
 
-    public init() {
+    public init(logger: AnalogLogger = Logger()) {
+        self.logger = logger
     }
 
     public func log(_ event: ButterBroad.Event) {
         var params = [String: String]()
         event.params.forEach { key, anyCodable in
-            guard let string = anyCodable.value as? String else {
-                return
-            }
+            let string = anyCodable.value as? String ?? "\(anyCodable)"
             params[key] = string
         }
         logger.log(.init(title: event.name, parameters: params))
     }
+}
+
+extension Logger: AnalogLogger {
 }
