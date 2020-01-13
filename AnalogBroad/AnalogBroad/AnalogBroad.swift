@@ -17,6 +17,7 @@ public enum SessionFilter {
 
 public final class AnalogBroad: Analytics {
 
+    public var activationHandler: (() -> Void)?
     public private(set) var logger: Logger = .init()
 
     public init() {
