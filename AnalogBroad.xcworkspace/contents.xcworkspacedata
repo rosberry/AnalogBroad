@@ -4,42 +4,6 @@
    <FileRef
       location = "group:AnalogBroad/AnalogBroad.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:AnalogBroadExample/AnalogBroadExample"
-      name = "AnalogBroadExample">
-      <FileRef
-         location = "group:AnalogBroadExample/Cartfile">
-      </FileRef>
-      <FileRef
-         location = "group:AnalogBroadExample/AnalogBroadExample/AppDelegate.swift">
-      </FileRef>
-      <FileRef
-         location = "group:AnalogBroadExample/AnalogBroadExample/ViewController.swift">
-      </FileRef>
-      <Group
-         location = "group:AnalogBroadExample/AnalogBroadExample"
-         name = "Main.storyboard">
-         <FileRef
-            location = "group:AnalogBroadExample/AnalogBroadExample/Base.lproj/Main.storyboard">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:AnalogBroadExample/AnalogBroadExample/Assets.xcassets">
-      </FileRef>
-      <Group
-         location = "group:AnalogBroadExample/AnalogBroadExample"
-         name = "LaunchScreen.storyboard">
-         <FileRef
-            location = "group:AnalogBroadExample/AnalogBroadExample/Base.lproj/LaunchScreen.storyboard">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:AnalogBroadExample/AnalogBroadExample/Info.plist">
-      </FileRef>
-      <FileRef
-         location = "group:AnalogBroadExample/AnalogBroadExample/Butter+ApplicationBroads.swift">
-      </FileRef>
-   </Group>
    <FileRef
       location = "group:AnalogBroadExample/AnalogBroadExample.xcodeproj">
    </FileRef>

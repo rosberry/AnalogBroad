@@ -17,6 +17,8 @@ public enum SessionFilter {
 
 public protocol AnalogLogger {
     func log(_ event: Analog.Event)
+    func currentEventsModule() -> UIViewController
+    func sessionsModule() -> UIViewController
 }
 
 public final class AnalogBroad: Analytics {

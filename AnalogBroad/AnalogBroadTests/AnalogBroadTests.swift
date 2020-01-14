@@ -35,6 +35,14 @@ final class MockedLogger: AnalogLogger {
         }
         events.append(.init(name: title, parameters: params))
     }
+
+    func sessionsModule() -> UIViewController {
+        return .init()
+    }
+
+    func currentEventsModule() -> UIViewController {
+        return .init()
+    }
 }
 
 class AnalogBroadTests: XCTestCase {
