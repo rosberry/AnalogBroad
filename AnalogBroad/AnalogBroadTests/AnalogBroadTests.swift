@@ -11,7 +11,6 @@ import ButterBroad
 import Analog
 @testable import AnalogBroad
 
-
 struct MockedEvent {
     let name: String
     let parameters: [String: Any]?
@@ -143,4 +142,3 @@ class AnalogBroadTests: XCTestCase {
         }
     }
 }
-
