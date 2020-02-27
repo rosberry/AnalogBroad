@@ -20,10 +20,11 @@ Create a `Cartfile` that lists the framework and run `carthage update`. Follow t
 ```
 github "ntunin/AnalogBroad"
 ```
-
-#### Manually
-
-Drag `Sources` folder from [last release](https://github.com/ntunin/AnalogBroad/releases) into your project.
+Add following frameworks from Carhage/Build/iOS folder:
+- Analog.framework
+- Butterbroad.framework
+- AnalogBroad.framework
+- AnyCodable.framework
 
 ## Usage
 
