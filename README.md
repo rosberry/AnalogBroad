@@ -26,6 +26,10 @@ Add following frameworks from Carhage/Build/iOS folder:
 - AnalogBroad.framework
 - AnyCodable.framework
 
+### Manually
+
+Drag `Sources` folder from [last release](https://github.com/rosberry/AnalogBroad/releases) into your project.
+
 ## Usage
 
 #### Creating a broad
