@@ -1,6 +1,6 @@
 # Analog broad
 
-[Butterborad](https://github.com/rosberry/butterbroad/) aggreator for [Analog](https://github.com/rosberry/analog)
+[Butterbroad](https://github.com/rosberry/butterbroad/) aggreator for [Analog](https://github.com/rosberry/analog)
 
 ## Features
 
